@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-1-2">
+    <div class="wraper">
+        <div>
+            <div class="float-left desain-1 theme-1-4">
+                calc
+            </div>
+            <div class="float-right">
+                <span style="position: relative; color: white; right: 10px; top: 20px;" class="theme-1-4">THEME</span><span style="color: white; letter-spacing: 12px;" class="theme-1-4">1 2 3</span><div class="toggle-b theme-1-5" onclick="toggle1()"><div class="toggle-a theme-1-8" id="toggle"></div></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="input theme-1-3 ">
+            <textarea dir="ltr" class="float-right inti theme-1-3 theme-1-4" id="value" readonly></textarea>
+        </div>
+        <div class="wraper-1 theme-1-5">
+            <div>
+                <div onclick="fungsi(7)" id="kamu" class="float-left button-1 theme-1-7">7</div>
+                <div onclick="fungsi(8)" class="float-left button-1 theme-1-7">8</div>
+                <div onclick="fungsi(9)" class="float-left button-1 theme-1-7">9</div>
+                <div onclick="del()" class="float-left button-1 theme-1-6" style="font-size: 16px; padding: 20px 33px; background-color: hsl(225, 21%, 49%); color: white;">DEL</div>
+                <div class="clearfix"></div>
+            </div>
+            <br>
+            <div>
+                <div onclick="fungsi(4)" class="float-left button-1 theme-1-7">4</div>
+                <div onclick="fungsi(5)" class="float-left button-1 theme-1-7">5</div>
+                <div onclick="fungsi(6)" class="float-left button-1 theme-1-7">6</div>
+                <div onclick="fungsi('+')" class="float-left button-1 theme-1-7">+</div>
+                <div class="clearfix"></div>
+            </div>
+            <br>
+            <div>
+                <div onclick="fungsi(1)" class="float-left button-1 theme-1-7">1</div>
+                <div onclick="fungsi(2)" class="float-left button-1 theme-1-7">2</div>
+                <div onclick="fungsi(3)" class="float-left button-1 theme-1-7">3</div>
+                <div onclick="fungsi('-')" class="float-left button-1 theme-1-7" style="padding: 10px 44px;">-</div>
+                <div class="clearfix"></div>
+            </div>
+            <br>
+            <div>
+                <div onclick="fungsi('.')" class="float-left button-1 theme-1-7" style="padding: 10px 44px;">.</div>
+                <div onclick="fungsi(0)" class="float-left button-1 theme-1-7">0</div>
+                <div onclick="fungsi('/')" class="float-left button-1 theme-1-7" style="padding: 10px 44px;">/</div>
+                <div onclick="fungsi('*')" class="float-left button-1 theme-1-7">×</div>
+                <div class="clearfix"></div>
+            </div>
+            <br>
+            <div>
+                <div onclick="res()" class="float-left button-2 theme-1-6">RESET</div>
+                <div onclick="result()" class="float-left button-3 theme-1-8">=</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
